@@ -1,35 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:display=swap');
+
 * {
     background-color: #EEE2DC;
 }
 
-/*** Homepage ***/
+
+/*** homepage starts here ***/
+
 
 /* heading & logo */
 
 #barro-header-container {
     display: flex;
-    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: baseline;
+    position: relative;
+}
+
+#barro-header-container h1 {
+    font-family: comfortaa, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#barro-header-container ul {
+    display: flex;
+    gap: 2rem;
+}
+
+#barro-header-container a {
+    text-decoration: none;
 }
 
 #barro-logo {
     color: #AC3B61;
     font-size: 50px;
     letter-spacing: 2px;
-    text-decoration: none;
 }
+
 #barro-nav-menu li {
-    display: inline-flex;
+    font-family: open sans, sans-serif;
+    display: inline;
 }
 
 #barro-nav-menu a {
+    color: #AC3B61;
     text-decoration: none;
 }
 
 #barro-nav-menu a:hover {
     border-bottom: 1px solid #AC3B61;
 }
+
 .active {
     border-bottom: 1px solid #AC3B61;
 }
 
+
+
+
+
+
+
+
+
+
+/* about barro */
+
+#about-barro > #about-barro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+    #about-barro > #about-barro-container {
+        flex-direction: row;
+    }
+}
+
+#about-barro-text .lang-en {
+    color: #474b4f;
+    font-family: open sans, sans-serif;
+}
+
+#about-barro-text .lang-pt {
+    color: #6b6e70;
+    font-family: open sans, sans-serif;
+}
+
+#about-barro-hero-image {
+    width: 100%;
+}
+
+#about-barro-hero-image img {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    height: 60px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline-flex;
+}
+
+.social-networks i {
+    color: #a6607c;
+    font-size: 150%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
