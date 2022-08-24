@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:display=swap');
 
 * {
-    background-color: #EEE2DC;
+    background-color: 1f1f1f;
 }
 
 
-/*** homepage starts here ***/
-
+/* homepage starts here */
 
 /* heading & logo */
 
@@ -59,14 +58,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 /* about barro */
 
 #about-barro > #about-barro-container {
@@ -78,6 +69,7 @@
     margin-right: auto;
     align-items: center;
     line-height: 1.5;
+    margin-bottom: 115px;
 }
 
 @media (min-width: 1024px) {
@@ -104,6 +96,37 @@
     max-width: 100%;
     width: 100%;
 }
+
+/* homepage ends here */
+
+
+/* studio section starts here */
+
+#studio {
+    background-color: #edeae5;
+    width: 100%;
+}
+
+#studio-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
