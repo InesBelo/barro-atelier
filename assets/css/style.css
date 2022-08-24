@@ -60,7 +60,7 @@
 
 /* about barro */
 
-#about-barro > #about-barro-container {
+#about-barro>#about-barro-container {
     display: flex;
     flex-direction: column;
     gap: 6rem;
@@ -68,12 +68,12 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    line-height: 1.5;
-    margin-bottom: 115px;
+    line-height: 32px;
+    margin-bottom: 70px;
 }
 
 @media (min-width: 1024px) {
-    #about-barro > #about-barro-container {
+    #about-barro>#about-barro-container {
         flex-direction: row;
     }
 }
@@ -100,24 +100,57 @@
 /* homepage ends here */
 
 
+
 /* studio section starts here */
 
-#studio {
-    background-color: #edeae5;
-    width: 100%;
+#studio-content-container {
+    margin-bottom: 40px;
 }
 
 #studio-text {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    max-width: 80%;
+    margin-left: 450px;
+    margin-right: 450px;
+    align-items: center;
+    line-height: 32px;
+}
+
+#studio-text .lang-en {
+    color: #474b4f;
+    font-family: open sans, sans-serif;
+}
+
+#studio-text .lang-pt {
+    color: #6b6e70;
+    font-family: open sans, sans-serif;
+}
+
+#studio-photo {
+    display: flex;
+    flex-direction: column;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     line-height: 1.5;
+    width: 100%;
 }
 
+#studio-photo img {
+    max-width: 100%;
+    width: 50%;
+    padding: 3%;
+}
+
+@media (min-width: 1024px) {
+    #studio-content-container>#studio-photo {
+        flex-direction: column;
+    }
+}
+
+/* studio section ends here */
 
 
 
