@@ -1,0 +1,35 @@
+* {
+    background-color: #EEE2DC;
+}
+
+/*** Homepage ***/
+
+/* heading & logo */
+
+#barro-header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#barro-logo {
+    color: #AC3B61;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+#barro-nav-menu li {
+    display: inline-flex;
+}
+
+#barro-nav-menu a {
+    text-decoration: none;
+}
+
+#barro-nav-menu a:hover {
+    border-bottom: 1px solid #AC3B61;
+}
+.active {
+    border-bottom: 1px solid #AC3B61;
+}
+
