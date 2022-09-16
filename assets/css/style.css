@@ -155,6 +155,48 @@
 
 
 
+/* CONTACT SECTION STARTS HERE- SECÇÃO DE CONTACTO COMEÇA AQUI */
+
+.grid-contacts-container {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    align-self: center;
+    gap: 50px 50px;
+}
+
+.grid-address {
+    grid-column: span 1/2;
+    grid-row: span 1/2;
+}
+
+.grid-phone-mail {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-location-map {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grid-adao-img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grid-adao-img img {
+    max-width: 88%;
+}
+ 
+
+
 
 
 
