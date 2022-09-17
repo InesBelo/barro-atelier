@@ -58,6 +58,20 @@
 }
 
 
+/* HERO IMAGE*/
+
+#hero-image {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-image img {
+    max-width: 80%;
+}
+
+
+
+
 /* about barro */
 
 #about-barro>#about-barro-container {
