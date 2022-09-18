@@ -2,8 +2,34 @@
 
 * {
     background-color: 1f1f1f;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.lang-en {
+    color: #474b4f;
+    font-family: open sans, sans-serif;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.lang-pt {
+    color: #6b6e70;
+    font-family: open sans, sans-serif;
+    line-height: 32px;
+    text-align: justify;
+}
 
 /* homepage starts here */
 
@@ -11,8 +37,6 @@
 
 #barro-header-container {
     display: flex;
-    max-width: 80%;
-    margin: 0 auto;
     justify-content: space-between;
     align-items: baseline;
     position: relative;
@@ -53,9 +77,6 @@
     border-bottom: 1px solid #AC3B61;
 }
 
-.active {
-    border-bottom: 1px solid #AC3B61;
-}
 
 
 /* HERO IMAGE*/
@@ -69,18 +90,13 @@
     max-width: 80%;
 }
 
-
-
-
 /* about barro */
 
-#about-barro>#about-barro-container {
+#about-barro-container {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 5rem;
+    margin: 5vh auto;
     align-items: center;
     line-height: 32px;
     margin-bottom: 70px;
@@ -92,74 +108,49 @@
     }
 }
 
-#about-barro-text .lang-en {
-    color: #474b4f;
-    font-family: open sans, sans-serif;
-}
 
-#about-barro-text .lang-pt {
-    color: #6b6e70;
-    font-family: open sans, sans-serif;
-}
 
-#about-barro-hero-image {
-    width: 100%;
-}
-
-#about-barro-hero-image img {
-    max-width: 100%;
-    width: 100%;
-}
 
 /* homepage ends here */
 
 
 
+
+
+
+
+
+
 /* studio section starts here */
 
-#studio-content-container {
-    margin-bottom: 40px;
+section#studio-wrapper {
+    background-color: #FFF5EE;
+    padding: 5rem 0;
 }
 
 #studio-text {
     display: flex;
     flex-direction: column;
-    max-width: 80%;
-    margin-left: 450px;
-    margin-right: 450px;
+    text-align: justify;
+    margin: 0 10vw;
     align-items: center;
     line-height: 32px;
 }
 
-#studio-text .lang-en {
-    color: #474b4f;
-    font-family: open sans, sans-serif;
-}
-
-#studio-text .lang-pt {
-    color: #6b6e70;
-    font-family: open sans, sans-serif;
-}
-
-#studio-photo {
+.studio-photo {
     display: flex;
     flex-direction: column;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     align-items: center;
-    line-height: 1.5;
-    width: 100%;
 }
 
-#studio-photo img {
-    max-width: 100%;
-    width: 50%;
+.studio-photo img {
+    width: 82%;
     padding: 3%;
 }
 
 @media (min-width: 1024px) {
-    #studio-content-container>#studio-photo {
+    #studio-wrapper .container>#studio-photo {
         flex-direction: column;
     }
 }
@@ -169,59 +160,69 @@
 
 
 
-/* CONTACT SECTION STARTS HERE- SECÇÃO DE CONTACTO COMEÇA AQUI */
+/*COURSES AND WORKSHOPS SECTION*/
 
-.grid-contacts-container {
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 3;
-    align-self: center;
-    gap: 50px 50px;
+#workshops-courses-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
-.grid-address {
-    grid-column: span 1/2;
-    grid-row: span 1/2;
+.make-mug-content-container, .make-tile-content-container {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+    overflow: hidden;
 }
 
-.grid-phone-mail {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.short-course-content-container, .long-course-content-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+    overflow: hidden;
 }
 
-.grid-location-map {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+.make-mug-text, .make-tile-text, .short-course-text, .long-course-text {
+    width: 50%;
 }
 
-.grid-adao-img {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+.make-mug-image, .make-tile-image, .short-course-image, .long-course-image {
+    width: 50%;
 }
 
-.grid-adao-img img {
-    max-width: 50%;
+.make-mug-image img, .make-tile-image img, .short-course-image img, .long-course-image img {
+    width: 100%;
+    height: auto;
 }
+
+
+
  
-#contacts-address, #contacts-phone-mail > h1, p {
-    color: #474b4f;
-    font-family: open sans, sans-serif;
-}
-
-#contacts-address, #contacts-phone-mail > p {
-line-height: 32px;
-}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT SECTION STARTS HERE- SECÇÃO DE CONTACTO COMEÇA AQUI */
 
 
 
@@ -257,5 +258,12 @@ footer {
     .row,
     .navbar {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #studio-text {
+        margin: 0 7vw;
     }
 }
