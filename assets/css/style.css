@@ -123,7 +123,7 @@ html {
 
 /* studio section starts here */
 
-section#studio-wrapper {
+section#studio-section-wrapper {
     background-color: #FFF5EE;
     padding: 5rem 0;
 }
@@ -162,13 +162,13 @@ section#studio-wrapper {
 
 /*COURSES AND WORKSHOPS SECTION*/
 
-#workshops-courses-section {
+#courses-section-wrapper {
     display: flex;
     flex-direction: column;
     gap: 5rem;
 }
 
-.make-mug-content-container, .make-tile-content-container {
+.essential-techniques-container, .potters-wheel-container {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -176,7 +176,7 @@ section#studio-wrapper {
     overflow: hidden;
 }
 
-.short-course-content-container, .long-course-content-container {
+.handmade-tile-container, .raku-technique-container {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -185,18 +185,48 @@ section#studio-wrapper {
     overflow: hidden;
 }
 
-.make-mug-text, .make-tile-text, .short-course-text, .long-course-text {
+.essential-techniques-text, .potters-wheel-text, .handmade-tile-text, .raku-technique-text {
     width: 50%;
 }
 
-.make-mug-image, .make-tile-image, .short-course-image, .long-course-image {
+.essential-techniques-image, .make-tile-image, .short-course-image, .raku-technique-image {
     width: 50%;
 }
 
-.make-mug-image img, .make-tile-image img, .short-course-image img, .long-course-image img {
+.essential-techniques-image img, .make-tile-image img, .short-course-image img, .raku-technique-image img {
     width: 100%;
     height: auto;
 }
+
+
+.timetable-container h2, table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* CONTACTS SECTION*/
+
+.contacts-container {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-text {
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 32px;
+}
+
+.contacts-map {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
 
 
 
@@ -220,9 +250,6 @@ section#studio-wrapper {
 
 
 
-
-
-/* CONTACT SECTION STARTS HERE- SECÇÃO DE CONTACTO COMEÇA AQUI */
 
 
 
