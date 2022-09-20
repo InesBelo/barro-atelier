@@ -94,6 +94,7 @@ h1.lang-pt {
     display: flex;
     justify-content: center;
     margin: 4vh 0;
+    opacity: 0.9;
 }
 
 #hero-image img {
@@ -136,13 +137,13 @@ h1.lang-pt {
 #parallax {
     background-image: url(../images/studio.jpg);
     background-color: #FFF5EE;
-    min-height: 800px;
+    min-height: 600px;
     min-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 7rem 0;
+    padding: 3rem 0;
 }
 
 
@@ -204,8 +205,8 @@ p.quote-author {
     overflow: hidden;
 }
 
-.handmade-tile-container,
-.raku-technique-container {
+.handmade-tile-container, 
+.pottery-project-container {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -217,23 +218,24 @@ p.quote-author {
 .essential-techniques-text,
 .potters-wheel-text,
 .handmade-tile-text,
-.raku-technique-text {
+.pottery-project-text {
     width: 50%;
 }
 
 .essential-techniques-image,
 .make-tile-image,
 .short-course-image,
-.raku-technique-image {
+.pottery-project-image {
     width: 50%;
 }
 
 .essential-techniques-image img,
 .make-tile-image img,
 .short-course-image img,
-.raku-technique-image img {
+.pottery-project-image img {
     width: 100%;
     height: auto;
+    opacity: 0.9;
 }
 
 
