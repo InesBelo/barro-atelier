@@ -17,7 +17,9 @@ body {
     font-size: 17px;
     font-weight: 500;
     text-align: justify;
+    line-height: 32px;
 }
+
 
 h1.lang-en {
     color: #AC3B61;
@@ -46,7 +48,7 @@ h1.lang-pt {
     justify-content: space-between;
     align-items: baseline;
     position: relative;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 #barro-header-container h1 {
@@ -99,6 +101,7 @@ h1.lang-pt {
 
 #hero-image img {
     max-width: 80%;
+    filter:sepia(10%) brightness(85%);
 }
 
 
@@ -136,7 +139,7 @@ h1.lang-pt {
 
 #parallax {
     background-image: url(../images/studio.jpg);
-    background-color: #FFF5EE;
+    background-color: rgba(0,0,0,0.8);
     min-height: 600px;
     min-width: 100%;
     background-attachment: fixed;
@@ -144,6 +147,8 @@ h1.lang-pt {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3rem 0;
+    background-blend-mode: overlay;
+    filter:sepia(30%);
 }
 
 
@@ -155,6 +160,12 @@ h1.lang-pt {
     align-items: center;
     line-height: 32px;
 }
+
+.studio-text p {
+    color: #ffff;
+}
+
+
 
 /* studio section ends here */
 
@@ -172,7 +183,7 @@ h1.lang-pt {
 #pottery-quote {
     background-color: #E8DED2;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
     align-items: center;
     margin: 7vh 0;
     padding: 50px;
@@ -206,7 +217,7 @@ p.quote-author {
     overflow: hidden;
 }
 
-.handmade-tile-container, 
+.handmade-tile-container,
 .pottery-project-container {
     display: flex;
     flex-direction: row-reverse;
@@ -224,20 +235,29 @@ p.quote-author {
 }
 
 .essential-techniques-image,
-.make-tile-image,
-.short-course-image,
+.handmade-tile-image,
+.potters-wheel-image,
 .pottery-project-image {
     width: 50%;
+    
 }
 
-.essential-techniques-image img,
-.make-tile-image img,
-.short-course-image img,
+.essential-techniques-image img, 
 .pottery-project-image img {
     width: 100%;
     height: auto;
-    opacity: 0.9;
+    filter:sepia(10%) brightness(85%);
 }
+
+.potters-wheel-image img, .handmade-tile-image img{
+    width: 100%;
+    height: auto;
+    filter:sepia(25%) brightness(80%);
+}
+
+
+
+
 
 
 .timetable-container h2,
