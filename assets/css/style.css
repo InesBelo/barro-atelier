@@ -1,15 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300&display=swap');
 
 * {
     background-color: 1f1f1f;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    color: #525252;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+h1.lang-en {
+    color: #AC3B61;
+    font-size: 32px;
+    margin: 3vh 0;
+}
+
+h1.lang-pt {
+    color: #C86B85;
+    font-size: 32px;
+    margin: 3vh 0;
 }
 
 .container {
@@ -17,21 +36,8 @@ html {
     margin: 0 auto;
 }
 
-.lang-en {
-    color: #474b4f;
-    font-family: open sans, sans-serif;
-    line-height: 32px;
-    text-align: justify;
-}
 
-.lang-pt {
-    color: #6b6e70;
-    font-family: open sans, sans-serif;
-    line-height: 32px;
-    text-align: justify;
-}
 
-/* homepage starts here */
 
 /* heading & logo */
 
@@ -40,12 +46,13 @@ html {
     justify-content: space-between;
     align-items: baseline;
     position: relative;
+    margin-top: 2%;
 }
 
 #barro-header-container h1 {
     font-family: comfortaa, sans-serif;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #barro-header-container ul {
@@ -64,7 +71,9 @@ html {
 }
 
 #barro-nav-menu li {
-    font-family: open sans, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
     display: inline;
 }
 
@@ -84,11 +93,15 @@ html {
 #hero-image {
     display: flex;
     justify-content: center;
+    margin: 4vh 0;
 }
 
 #hero-image img {
     max-width: 80%;
 }
+
+
+
 
 /* about barro */
 
@@ -108,9 +121,6 @@ html {
     }
 }
 
-
-
-
 /* homepage ends here */
 
 
@@ -123,36 +133,26 @@ html {
 
 /* studio section starts here */
 
-section#studio-section-wrapper {
+#parallax {
+    background-image: url(../images/studio.jpg);
     background-color: #FFF5EE;
-    padding: 5rem 0;
+    min-height: 800px;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem 0;
 }
 
-#studio-text {
+
+.studio-text {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    margin: 0 10vw;
+    margin: 0 20vw;
     align-items: center;
     line-height: 32px;
-}
-
-.studio-photo {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-}
-
-.studio-photo img {
-    width: 82%;
-    padding: 3%;
-}
-
-@media (min-width: 1024px) {
-    #studio-wrapper .container>#studio-photo {
-        flex-direction: column;
-    }
 }
 
 /* studio section ends here */
@@ -168,7 +168,35 @@ section#studio-section-wrapper {
     gap: 5rem;
 }
 
-.essential-techniques-container, .potters-wheel-container {
+#pottery-quote {
+    background-color: #E8DED2;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    margin: 7vh 0;
+    padding: 50px;
+}
+
+p.quote-en {
+    color: #AC3B61;
+    font-size: 22px;
+    margin: 2vh 0;
+}
+
+p.quote-pt {
+    color: #C86B85;
+    font-size: 22px;
+    margin: 2v 0;
+}
+
+p.quote-author {
+    color: #525252;
+    font-size: 14px;
+    margin: 2vh 0;
+}
+
+.essential-techniques-container,
+.potters-wheel-container {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -176,7 +204,8 @@ section#studio-section-wrapper {
     overflow: hidden;
 }
 
-.handmade-tile-container, .raku-technique-container {
+.handmade-tile-container,
+.raku-technique-container {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -185,21 +214,31 @@ section#studio-section-wrapper {
     overflow: hidden;
 }
 
-.essential-techniques-text, .potters-wheel-text, .handmade-tile-text, .raku-technique-text {
+.essential-techniques-text,
+.potters-wheel-text,
+.handmade-tile-text,
+.raku-technique-text {
     width: 50%;
 }
 
-.essential-techniques-image, .make-tile-image, .short-course-image, .raku-technique-image {
+.essential-techniques-image,
+.make-tile-image,
+.short-course-image,
+.raku-technique-image {
     width: 50%;
 }
 
-.essential-techniques-image img, .make-tile-image img, .short-course-image img, .raku-technique-image img {
+.essential-techniques-image img,
+.make-tile-image img,
+.short-course-image img,
+.raku-technique-image img {
     width: 100%;
     height: auto;
 }
 
 
-.timetable-container h2, table {
+.timetable-container h2,
+table {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,7 +269,7 @@ section#studio-section-wrapper {
 
 
 
- 
+
 
 
 
@@ -292,5 +331,12 @@ footer {
 
     #studio-text {
         margin: 0 7vw;
+    }
+}
+
+/*parallax media queries*/
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
     }
 }
