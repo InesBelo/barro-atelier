@@ -162,6 +162,13 @@ h1.lang-pt {
     gap: 5rem;
 }
 
+#all-courses h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+    font-size: 40px;
+}
 
 .essential-techniques-container,
 .handmade-tile-container {
@@ -171,6 +178,7 @@ h1.lang-pt {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    padding: 1.5%;
 }
 
 
@@ -213,8 +221,14 @@ h1.lang-pt {
     filter: sepia(25%) brightness(80%);
 }
 
-#all-courses h1 {
+h2.lang-en {
     font-size: 24px;
+    color: #AC3B61;
+}
+
+h2.lang-pt {
+    font-size: 24px;
+    color: #C86B85;
 }
 
 #all-courses p {
