@@ -40,7 +40,6 @@ h1.lang-pt {
 
 
 
-
 /* heading & logo */
 
 #barro-header-container {
@@ -90,7 +89,7 @@ h1.lang-pt {
 
 
 
-/* HERO IMAGE*/
+/* hero image*/
 
 #hero-image {
     display: flex;
@@ -101,13 +100,11 @@ h1.lang-pt {
 
 #hero-image img {
     max-width: 80%;
-    filter:sepia(10%) brightness(85%);
+    filter: sepia(10%) brightness(75%);
 }
 
 
-
-
-/* about barro */
+/* about section*/
 
 #about-barro-container {
     display: flex;
@@ -125,21 +122,12 @@ h1.lang-pt {
     }
 }
 
-/* homepage ends here */
 
-
-
-
-
-
-
-
-
-/* studio section starts here */
+/* studio section */
 
 #parallax {
     background-image: url(../images/studio.jpg);
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     min-height: 600px;
     min-width: 100%;
     background-attachment: fixed;
@@ -148,9 +136,8 @@ h1.lang-pt {
     background-size: cover;
     padding: 3rem 0;
     background-blend-mode: overlay;
-    filter:sepia(30%);
+    filter: sepia(30%);
 }
-
 
 .studio-text {
     display: flex;
@@ -166,13 +153,7 @@ h1.lang-pt {
 }
 
 
-
-/* studio section ends here */
-
-
-
-
-/*COURSES AND WORKSHOPS SECTION*/
+/*courses section*/
 
 #courses-section-wrapper {
     display: flex;
@@ -208,24 +189,46 @@ p.quote-author {
     margin: 2vh 0;
 }
 
-.essential-techniques-container,
-.potters-wheel-container {
+
+.potters-wheel-container, .handmade-tile-container,
+.pottery-project-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 5rem;
     width: 100%;
     overflow: hidden;
 }
 
-.handmade-tile-container,
-.pottery-project-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 5rem;
-    width: 100%;
-    overflow: hidden;
+.essential-techniques-container {
+    background-image: url(../images/essentials.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    filter: sepia(30%);
+
+  
 }
+
+.essential-techniques-text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 20vw;
+    align-items: center;
+    line-height: 32px;
+}
+
+.essential-techniques-text p {
+    color: #ffff;
+}
+
+
+
+
+
+
 
 .essential-techniques-text,
 .potters-wheel-text,
@@ -239,37 +242,66 @@ p.quote-author {
 .potters-wheel-image,
 .pottery-project-image {
     width: 50%;
-    
 }
 
-.essential-techniques-image img, 
+.essential-techniques-image img,
 .pottery-project-image img {
     width: 100%;
     height: auto;
-    filter:sepia(10%) brightness(85%);
+    filter: sepia(10%) brightness(85%);
 }
 
-.potters-wheel-image img, .handmade-tile-image img{
+.potters-wheel-image img,
+.handmade-tile-image img {
     width: 100%;
     height: auto;
-    filter:sepia(25%) brightness(80%);
+    filter: sepia(25%) brightness(80%);
 }
 
-
-
-
-
-
-.timetable-container h2,
-table {
+.timetable-container, .other-info-container, h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 8px;
+    border-collapse: separate;
+    text-indent: initial;
+    
+}
+
+.timetable-container, .other-info-container {
+    padding: 2em 0;
 }
 
 
 
-/* CONTACTS SECTION*/
+table, th, td {
+    border: 1px solid #ffff;
+  border-collapse: collapse;
+  border-spacing: 7px;
+}
+
+
+table tr:nth-child(even) {
+    background-color: rgb(240, 239, 239);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*contacts section*/
 
 .contacts-container {
     display: flex;
@@ -287,35 +319,6 @@ table {
     flex-direction: column;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer */
@@ -340,15 +343,22 @@ footer {
 }
 
 
-/* media queries */
 
-@media screen and (max-width: 700px) {
 
-    .row,
-    .navbar {
-        flex-direction: column;
+/* responsive media queries */
+
+
+/*about section*/
+
+@media (min-width: 1024px) {
+    #about-barro>#about-barro-container {
+        flex-direction: row;
     }
 }
+
+
+
+/*studio section*/
 
 @media (max-width: 400px) {
 
@@ -357,9 +367,44 @@ footer {
     }
 }
 
-/*parallax media queries*/
-@media only screen and (max-device-width: 1366px) {
+@media screen and (max-width: 1366px) {
     .parallax {
         background-attachment: scroll;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 320px) {}
+
+
+@media screen and (min-width: 481px) {}
+
+
+@media screen and (min-width: 769px) {}
+
+
+@media screen and (min-width: 1025px) {}
+
+
+@media screen and (min-width: 1201px) {}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
     }
 }
