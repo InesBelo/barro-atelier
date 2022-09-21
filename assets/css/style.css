@@ -100,7 +100,7 @@ h1.lang-pt {
 
 #hero-image img {
     max-width: 80%;
-    filter: sepia(10%) brightness(75%);
+    filter: sepia(10%) brightness(95%);
 }
 
 
@@ -156,74 +156,71 @@ h1.lang-pt {
 /*courses section*/
 
 #courses-section-wrapper {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 5rem;
 }
 
-#pottery-quote {
-    background-color: #E8DED2;
+
+.essential-techniques-container,
+.handmade-tile-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 7vh 0;
-    padding: 50px;
-    opacity: 0.9;
-}
-
-p.quote-en {
-    color: #AC3B61;
-    font-size: 22px;
-    margin: 2vh 0;
-}
-
-p.quote-pt {
-    color: #C86B85;
-    font-size: 22px;
-    margin: 2v 0;
-}
-
-p.quote-author {
-    color: #525252;
-    font-size: 14px;
-    margin: 2vh 0;
-}
-
-
-.potters-wheel-container, .handmade-tile-container,
-.pottery-project-container{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 5rem;
     width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
-.essential-techniques-container {
-    background-image: url(../images/essentials.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-    background-blend-mode: overlay;
-    filter: sepia(30%);
 
-  
-}
-
-.essential-techniques-text {
+.potters-wheel-container,
+.pottery-project-container {
     display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin: 0 20vw;
+    flex-direction: row-reverse;
     align-items: center;
-    line-height: 32px;
+    gap: 5rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.essential-techniques-text p {
-    color: #ffff;
+.essential-techniques-text,
+.potters-wheel-text,
+.handmade-tile-text,
+.pottery-project-text {
+    width: 50%;
 }
 
+.essential-techniques-image,
+.handmade-tile-image,
+.potters-wheel-image,
+.pottery-project-image {
+    width: 50%;
+}
+
+.essential-techniques-image img,
+.pottery-project-image img {
+    width: 100%;
+    height: auto;
+    filter: sepia(10%) brightness(85%);
+}
+
+.potters-wheel-image img,
+.handmade-tile-image img {
+    width: 100%;
+    height: auto;
+    filter: sepia(25%) brightness(80%);
+}
+
+#all-courses h1 {
+    font-size: 24px;
+}
+
+#all-courses p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
 
 
 
@@ -258,7 +255,9 @@ p.quote-author {
     filter: sepia(25%) brightness(80%);
 }
 
-.timetable-container, .other-info-container, h2 {
+.timetable-container,
+.other-info-container,
+h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,19 +270,22 @@ p.quote-author {
     border-spacing: 8px;
     border-collapse: separate;
     text-indent: initial;
-    
+
 }
 
-.timetable-container, .other-info-container {
+.timetable-container,
+.other-info-container {
     padding: 2em 0;
 }
 
 
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #ffff;
-  border-collapse: collapse;
-  border-spacing: 7px;
+    border-collapse: collapse;
+    border-spacing: 7px;
 }
 
 
