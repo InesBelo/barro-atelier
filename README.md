@@ -10,7 +10,17 @@
 **bar.ro** studio is a fictional pottery atelier based in the city of Barreiro, Portugal. 
 
 
+# Technologies Used
 
+## Operating System
+- [Windows 10](https://www.microsoft.com/en-gb/windows/get-windows-10)
+
+## Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Frameworks
+- 
 
 
 # Project Credits
@@ -33,8 +43,3 @@ For sure **[Joana Vieira](https://www.linkedin.com/in/vieirajoana/?originalSubdo
 At this point, I would also like to thank my dear friend **[Guilherme Doval](https://www.linkedin.com/in/guilherme-doval/)** for his precious help in the course of this project. His experience in web devolpment and his critical eye were fundamental to come up with practical and consistent solutions in line with my visions for this project. As little as he may believe, his words of encouragement and appreciation are infinitely important to me.
 
 Last - but not the least - I shall thank my mentor, **Chris Quinn**. Chris, thank you for you patience, gentleness and always on-point feedback. I am very grateful for all your commitment and the help you have given me in this project, and I am looking forward to the next ones.
- 
- 
-
-http://caulinoceramics.com/workshops/
-https://sedimento.pt/
