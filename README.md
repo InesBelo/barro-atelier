@@ -18,10 +18,11 @@
 ## Content
 
 - [Sedimento](https://sedimento.pt/) - **bar.ro** project was largely inspired by Sedimento studio in terms of content and *website* design choices;
-- [Caulino](http://caulinoceramics.com/) - in addition to Sedimento studio, Caulino studio's website was also relevant to set some parts of **bar.ro** project content (namely, the *Courses* section). *Contacts* section was also largely informed by Caulino's. 
+- [Caulino](http://caulinoceramics.com/) - in addition to Sedimento studio, Caulino studio's website was also relevant to set some parts of **bar.ro** project content (namely, the *Courses* section). *Contacts* section was also widely informed by Caulino's.
 
+## Media
 
-
+- [Pexels](https://www.pexels.com/pt-br/) - all images used on **bar.ro** were taken from **Pexels**. There is a reason to it, since the pretense was that all the images aesthetically resembled each other as closely as possible as to give the project an all-sense of unity. **Pexels** had some visually pleasent and inciting images regarding pottery making that fit well with the intended aesthetic of the project;
 
  # Project Acknowledgements
  
