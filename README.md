@@ -9,6 +9,22 @@
 
 **bar.ro** studio is a fictional pottery atelier based in the city of Barreiro, Portugal. 
 
+# User Experience (UX)
+
+## User Stories
+
+## Wireframes
+
+## Site Structure
+
+## Design Choices
+
+### Fonts and Typography 
+### Colour Scheme
+### Features
+
+
+
 
 # Technologies Used
 
@@ -33,6 +49,7 @@
 ## Other
 
 
+
 # Testing
 
 # Deployment
@@ -52,13 +69,23 @@ The website was deployed to GitHub. Follow the next steps to deploy the website:
 ### To fork the repository on GitHub
 A copy of the GitHub repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Follow the next steps to fork the repository:
 
-1. Log in to GitHub and locate the repository 
+1. Log in to GitHub and locate the [repository](https://github.com/InesBelo/barro-studio);
+2. On the right hand side of the page inline with the repository name you will find a button called **'Fork'**. Click on the button to create a copy of the original repository in your GitHub account.
 
+[add image]
 
+### To create a local clone of this project
 
+Follow the next steps to clone a repository:
 
+1. Under the repository's name, click on the **Code** tab;
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL;
+3. In your IDE of choice, open **Git Bash**;
+4. Change the current working directory to the location where you want the cloned directory to be made;
+5. Type **git clone**, and then paste the URL copied from GitHub;
+6. Press **Enter** and the local clone will be created. 
 
-
+[add image]
 
 # Project Credits
 
