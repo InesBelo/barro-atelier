@@ -36,7 +36,7 @@
 
  # Project Acknowledgements
  
-**bar.ro** studio, as said before, is a fictional pottery atelier. However, if I had chosen other kind of paths in my life, it probably could have been perfectly real as, once, I was utterly passionate about pottery. As years went by, pottery ceased to be part of my life, but I do feel that I need to aknowledge here my former professors from António Arroio Secondary School - **Alberto, Elsa, Fernando, Helena M., Helena P.** and **João** - who taught me every single thing I know about the art of pottery. That knowledge was, of course, channeled to **bar.ro** studio project. 
+**bar.ro** studio, as already stated at the intro, is a fictional pottery atelier. However, if I had chosen other kind of paths in my life, it probably could have been perfectly real as, once, I was utterly passionate about pottery. As years went by, pottery ceased to be part of my life, but I do feel that I need to aknowledge here my former professors from António Arroio Secondary School - **Alberto, Elsa, Fernando, Helena M., Helena P.** and **João** - who taught me every single thing I know about the art of pottery. That knowledge was, of course, channeled to **bar.ro** studio project. 
 
 For sure **[Joana Vieira](https://www.linkedin.com/in/vieirajoana/?originalSubdomain=de)**, my best friend, will remember those times at António Arroio when I used to work with clay almost daily. She saw me plenty of times sitted on a potter's wheel, completely focused into my creative process. So, when I told her that I was thinking about studying software development, as she did before, she maybe remembered my old self, whom really did not care about analytical suff. Nonetheless, she happily encouraged me to go ahead - as she always does.
 
