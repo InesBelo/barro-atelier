@@ -16,11 +16,21 @@
 - [Windows 10](https://www.microsoft.com/en-gb/windows/get-windows-10)
 
 ## Languages
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - website content and structure;
+- [CSS3](https://en.wikipedia.org/wiki/CSS) - website styling.
+
+## Version Control
+- [GitPod](https://www.gitpod.io/#get-started) - website deployment platform;
+- [GitHub](https://github.com/) - webiste hosting and editing platform.
 
 ## Frameworks
-- 
+- [Font Awesome](https://fontawesome.com/) - website icons;
+- [Google Fonts](https://fonts.google.com/) - website fonts and typography;
+
+## Wireframes
+- [Balsamiq](https://balsamiq.cloud/) - website wireframes design.
+
+
 
 
 # Project Credits
