@@ -44,12 +44,15 @@ The website was deployed to GitHub. Follow the next steps to deploy the website:
 2. Once in **Settings**, navigate to **Pages** tab on the left hand side;
 3. Under **Source**, select the branch to **Master** and then click **Save**;
 4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the success of the deployment process.
-5. Here you can find the live link to the repository: 
+5. The live link to the repository can be found here: https://github.com/InesBelo/barro-studio.
 
 [add image]
 
 
-### 
+### To fork the repository on GitHub
+A copy of the GitHub repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Follow the next steps to fork the repository:
+
+1. Log in to GitHub and locate the repository 
 
 
 
