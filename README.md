@@ -30,6 +30,30 @@
 ## Wireframes
 - [Balsamiq](https://balsamiq.cloud/) - website wireframes design.
 
+## Other
+
+
+# Testing
+
+# Deployment
+
+### To deploy the project
+The website was deployed to GitHub. Follow the next steps to deploy the website:
+
+1. In the GitHub repository, navigate to **Settings** tab;
+2. Once in **Settings**, navigate to **Pages** tab on the left hand side;
+3. Under **Source**, select the branch to **Master** and then click **Save**;
+4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the success of the deployment process.
+5. Here you can find the live link to the repository: 
+
+[add image]
+
+
+### 
+
+
+
+
 
 
 
