@@ -403,25 +403,45 @@ figure {
 
 
 
-/* footer */
+/* Footer */
 
-footer {
-    height: 60px;
-}
-
-.social-networks {
+.footer-container {
     text-align: center;
+    background-color:#525252;
+    color: #ffff;
+    padding: 1vh;
 }
 
-.social-networks>li {
+.social-networks li {
     display: inline-flex;
+    position: relative;
+    padding: 0.5vh;
 }
 
 .social-networks i {
-    color: #a6607c;
-    font-size: 150%;
+    color: #ffff;
+    font-size: 30px;
+    letter-spacing: 0.5;
     margin: 0 auto;
-    padding: 50px;
+    padding: 15px;
+}
+
+.social-networks i:hover {
+    color: #C86B85;
+}
+
+.copyrights {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    padding: 0.5vh;
+}
+.copyrights a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.copyrights a:hover {
+    border-bottom: 1px solid #ffff;
 }
 
 
