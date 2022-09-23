@@ -7,6 +7,11 @@
 > "You have to be in tune with the clay and react to what state it's in to work with with" [John Sheppard]
 <br>
 
+This web application, named **bar.ro** studio, is the result of my first milestone project [PP1] for Code Institute. Thinking about the theme for this project, I decided to imagine a fictional pottery studio located in my hometown, that is, in the city of Barreiro, Portugal. The reason behind this choice of mine has to do with the fact that, historically, Barreiro was known for its close link to the pottery craft. Futhermore, nowadays, the municipality is really proud of its cultural and artistic efforts regarding the city. Therefore, it made perfect sense, as I mentioned earlier, to imagine a pottery studio that could reinforce the city's past with its contemporary cultural impetus.  
+
+
+
+
 **bar.ro** studio is a fictional pottery atelier based in the city of Barreiro, Portugal. 
 
 # User Experience (UX)
