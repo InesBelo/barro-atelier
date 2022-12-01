@@ -20,7 +20,13 @@ This web application, named **bar.ro** studio, is the result of my first milesto
 
 ## Wireframes
 
-## Site Structure
+## Site Structure and Features
+
+- Logo and Navigation Bar - 
+- Hero Image - 
+- 
+
+
 
 ## Design Choices
 
@@ -68,16 +74,11 @@ The website was deployed to GitHub. Follow the next steps to deploy the website:
 4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the success of the deployment process.
 5. The live link to the repository can be found here: https://github.com/InesBelo/barro-studio.
 
-[add image]
-
-
 ### To fork the repository on GitHub
 A copy of the GitHub repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Follow the next steps to fork the repository:
 
 1. Log in to GitHub and locate the [repository](https://github.com/InesBelo/barro-studio);
 2. On the right hand side of the page inline with the repository name you will find a button called **'Fork'**. Click on the button to create a copy of the original repository in your GitHub account.
-
-[add image]
 
 ### To create a local clone of this project
 
@@ -90,8 +91,6 @@ Follow the next steps to clone a repository:
 5. Type **git clone**, and then paste the URL copied from GitHub;
 6. Press **Enter** and the local clone will be created. 
 
-[add image]
-
 # Project Credits
 
 ## Content
@@ -102,6 +101,9 @@ Follow the next steps to clone a repository:
 ## Media
 
 - [Pexels](https://www.pexels.com/pt-br/) - all images used on **bar.ro** were taken from **Pexels**. There is a reason to it, since the pretense was that all the images aesthetically resembled each other as closely as possible as to give the project an all-sense of unity. **Pexels** had some visually pleasent and inciting images regarding pottery making that fit well with the intended aesthetic of the project;
+
+# Project Reflection
+
 
  # Project Acknowledgements
  
