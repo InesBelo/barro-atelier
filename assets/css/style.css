@@ -44,7 +44,7 @@ h1.lang-pt {
 
 #barro-header-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: baseline;
     position: relative;
     margin-top: 3%;
@@ -56,26 +56,36 @@ h1.lang-pt {
     font-weight: 800;
 }
 
-#barro-header-container ul {
-    display: flex;
-    gap: 2rem;
-}
-
 #barro-header-container a {
     text-decoration: none;
 }
 
 #barro-logo {
+    margin-top: 20px;
     color: #AC3B61;
     font-size: 50px;
     letter-spacing: 2px;
 }
 
+nav{
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#barro-header-container ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #barro-nav-menu li {
-    font-family: Montserrat, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
     display: inline;
+    float: left;
+    width: 50%;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
 }
 
 #barro-nav-menu a {
@@ -85,6 +95,38 @@ h1.lang-pt {
 
 #barro-nav-menu a:hover {
     border-bottom: 1px solid #AC3B61;
+}
+
+@media screen and (min-width: 1025px) {
+
+
+  #barro-header-container {
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+  }
+
+  #barro-logo {
+    margin-top: 0;
+  }
+
+  nav{
+    float: right;
+    width: auto;
+    margin-top: 0;
+  }
+
+  #barro-header-container ul {
+      display: block;
+  }
+
+  #barro-nav-menu li {
+      width: auto;
+      padding-left: 20px;
+      font-size: 18px;
+      line-height: 22px;
+  }
+
+
 }
 
 
@@ -143,13 +185,19 @@ h1.lang-pt {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    margin: 0 20vw;
+    margin: 0 10vw;
     align-items: center;
     line-height: 32px;
 }
 
 .studio-text p {
     color: #ffff;
+}
+
+@media screen and (min-width: 1025px) {
+  .studio-text {
+      margin: 0 20vw;
+  }
 }
 
 
@@ -173,39 +221,56 @@ h1.lang-pt {
 .essential-techniques-container,
 .handmade-tile-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    gap: 1rem;
     width: 100%;
     height: 100%;
     overflow: hidden;
     padding: 1.5%;
 }
 
-
 .potters-wheel-container,
 .pottery-project-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    gap: 1rem;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.essential-techniques-text,
-.potters-wheel-text,
-.handmade-tile-text,
-.pottery-project-text {
-    width: 50%;
+
+
+@media screen and (min-width: 769px) {
+  .essential-techniques-container,
+  .handmade-tile-container {
+      flex-direction: row;
+      gap: 5rem;
+  }
+
+  .potters-wheel-container,
+  .pottery-project-container {
+      flex-direction: row-reverse;
+      gap: 5rem;
+  }
+
+  .essential-techniques-text,
+  .potters-wheel-text,
+  .handmade-tile-text,
+  .pottery-project-text {
+      width: 50%;
+  }
+
+  .essential-techniques-image,
+  .handmade-tile-image,
+  .potters-wheel-image,
+  .pottery-project-image {
+      width: 50%;
+  }
 }
 
-.essential-techniques-image,
-.handmade-tile-image,
-.potters-wheel-image,
-.pottery-project-image {
-    width: 50%;
-}
 
 .essential-techniques-image img,
 .pottery-project-image img {
@@ -236,38 +301,6 @@ h2.lang-pt {
     line-height: 1.5rem;
 }
 
-
-
-
-
-
-.essential-techniques-text,
-.potters-wheel-text,
-.handmade-tile-text,
-.pottery-project-text {
-    width: 50%;
-}
-
-.essential-techniques-image,
-.handmade-tile-image,
-.potters-wheel-image,
-.pottery-project-image {
-    width: 50%;
-}
-
-.essential-techniques-image img,
-.pottery-project-image img {
-    width: 100%;
-    height: auto;
-    filter: sepia(10%) brightness(85%);
-}
-
-.potters-wheel-image img,
-.handmade-tile-image img {
-    width: 100%;
-    height: auto;
-    filter: sepia(25%) brightness(80%);
-}
 
 .timetable-container,
 .other-info-container,
@@ -369,7 +402,7 @@ table td {
     width: 100%;
     height: 50%;
 }
-    
+
 
 
 
