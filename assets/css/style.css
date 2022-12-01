@@ -379,12 +379,15 @@ table td {
 
 
 #contact-section-wrapper {
-    background-color: #E0DACF;
+    background-color: #ECECEC;
     flex-direction: column;
     align-items: center;
 }
 
 h1.telephone-sound {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
     font-size: 38px;
     margin: 3vh 0;
     color: #AC3B61;
@@ -408,9 +411,63 @@ h1.telephone-sound {
     height: 100%;
 }
 
+/*Form*/
 
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 5%;
+}
 
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .6em;
+    width: 100%;
+}
 
+.label-top {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    min-width: 200px;
+}
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+input, textarea, select, form>button {
+    color: #525252;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #F5F5F5;
+    border: 1px solid;
+    border-color: #F5F5F5;
+    border-radius: 3px;
+    padding: .5em;
+    
+}
+
+form>button {
+    background-color:#616161;
+    color:#F5F5F5;
+    padding: .9em;
+    font-size: 1em;
+}
+
+form>button:hover {
+    background-color:#AC3B61;
+    color:#F5F5F5;
+    cursor: pointer;
+    border:#AC3B61;
+}
 
 
 
