@@ -31,7 +31,7 @@
                         <a href="#courses-section-wrapper"><strong>courses</strong> / cursos</a>
                     </li>
                     <li>
-                        <a href="#contacts-section-wrapper"><strong>contact</strong> / contacto</a>
+                        <a href="#contact-section-wrapper"><strong>contact</strong> / contacto</a>
                     </li>
                 </ul>
             </nav>
@@ -334,16 +334,71 @@
         </div>
 
 
-        <!--Contact Section-->
-        <section id="contact-wrapper">
 
+
+
+        <!--Contact Section-->
+
+        <section id="contact-section-wrapper">
             <div class="contact-container container">
 
-                <!--Contact Details-->
-                <div class="contact-text">
-                    <h1 class="lang-en">contact</h2>
+            <!--Contact Telephone Image-->
 
-                        <h1 class="lang-pt">contacto</h2>
+            <figure class="telephone-image">
+                <img src="../assets/images/telephone.png" alt="Beige disk phone" width="40%">
+            </figure>
+
+
+            <!--Contact Details-->
+
+                <div class="contact-text">
+                    <h1 class="telephone-sound"><strong>trrrrrrriiiiiiiiIIIIIIIIIIMMMMM!!!</strong></h1>
+
+
+                    
+
+            <!--Form-->
+            <form action="reach-out.html" method="GET">
+                <div class="input-group">
+                    <span class="label-top">
+                        <label for="first-name"><strong>first name </strong>/ primeiro nome</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </span>
+                    <span class="label-top">
+                        <label for="last-name"><strong>last name </strong> / último nome</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </span>
+                </div>
+                <div class="input-group">
+                    <span class="label-top">
+                        <label for="telephone"><strong>telephone </strong>/ telephone</label>
+                        <input type="text" id="telephone" name="telephone" required>
+                    </span>
+                    <span class="label-top">
+                        <label for="e-mail"><strong>e-mail</strong></label>
+                        <input type="text" id="e-mail" name="e-mail" required>
+                    </span>
+                </div>
+                <div class="input-group">
+                    <label for="additional-information" class="single-line"><strong>additional information (optional) </strong> / informação adicional (opcional)</label>
+                    <textarea name="additional-information" id="adittional-information"></textarea>
+                </div>
+                <button onclick="reach-out.html" aria-label="Submit form to reach out to us"><strong>reach out!</strong> / fala connosco!</button>
+
+
+
+
+
+
+
+
+
+
+            </form>
+
+
+
+
 
                             <p><i class="fa-solid fa-house"></i> Rua da Recosta 1</p>
                             <p>2830-303 Barreiro, Portugal</p>
@@ -353,20 +408,10 @@
                             <p><i class="fa-solid fa-envelope-open"></i> info@barro-studio.pt</p>
                 </div>
 
-                <!--Contact Image-->
-                <figure class="telephone-image">
-                    <img src="../assets/images/telephone.webp" alt="Beige disk phone" width="80%">
-                </figure>
 
             </div>
 
-            <!--Responsive Iframe-->
-            <figure style="margin:0px">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.6933309164533!2d-9.079791384798463!3d38.65593117960864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19363f8a69e2eb%3A0xeeb5098704966427!2sADAO!5e0!3m2!1spt-PT!2spt!4v1663932733729!5m2!1spt-PT!2spt"
-                    width="80%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </figure>
+            
 
         </section>
 
@@ -403,8 +448,8 @@
 
                 <!--Website Copyrights-->
                 <div class="copyrights">
-                    <p>Copyright (c) 2022 <strong>bar.ro</strong> by <a
-                            href="https://github.com/InesBelo">Inês Belo</a>. All rights reserved.</p>
+                    <p>Copyright (c) 2022 <strong>bar.ro</strong> by <a href="https://github.com/InesBelo">Inês
+                            Belo</a>. All rights reserved.</p>
                 </div>
             </div>
         </footer>
